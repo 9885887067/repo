@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.list-item {
+  list-style: none;
+  font-size: 30px;
+  color: #1e293b;
+
+  margin-left: 10px;
+}
+.button {
+  cursor: pointer;
+  outline: none;
+  border-color: #ffffff;
+  border: none;
+
+  color: #ffffff;
+  background-color: transparent;
+}
+.active-btn {
+  border: 5px solid #0284c7;
+  border-radius: 10px;
+}

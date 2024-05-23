@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.app-container {
+  height: 100vh;
+}
+.repo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.languageItem-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0px;
+  margin-top: 20px;
+}
+.repoItem-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}

@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.ist-item {
+  background-color: #f8f8ff;
+  list-style-type: none;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.repo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forks-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.issues-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.count-logo {
+  height: 15px;
+  width: 015px;
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+}
+.count{
+  font-size: 10px;
+  color:#1e293b;
+
+
+}
+.name{
+  color: #e73959;
+  font-family: "Roboto";
+  font-size: 20px;
+}
